@@ -1,6 +1,25 @@
-.google_font{
-    font-family: "Playwrite MX", cursive;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');  
+
+
+
+
+.google_font {
+    font-family: "Playwrite US Modern", cursive;
     font-optical-sizing: auto;
-    font-weight:500;
+    font-weight: 500;
     font-style: normal;
+  }
+
+.google_font2{
+    
+     font-family: "Playwrite US Modern", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      
 }
+
+/* google icon */
+
+
+  
