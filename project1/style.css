@@ -1,0 +1,64 @@
+
+.img{
+   
+    background-image: url("./photo/photo1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Mega{
+    text-align:left;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 30px;
+
+}
+
+.nav{
+    text-align: center;
+}
+.Home{
+    color: white;
+    text-align: center;
+    
+}
+.Story{
+    color: white;
+    text-align: center;
+    margin: 10px;
+
+}
+.Our_Cast{
+    color: white;
+    text-align: center;
+    margin: 10px;
+
+
+}
+.Blogs{
+    color: white;
+    text-align: center;
+    margin: 10px;
+
+
+}
+.Contact{
+    color: white;
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+.Flim{
+    color: white;
+    text-align: center;
+    padding: 330px;
+}
+.DREAM{
+    color: white;
+    text-align: center;
+margin-top: -20;
+}
