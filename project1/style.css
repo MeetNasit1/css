@@ -1,4 +1,6 @@
 
+/* header section */
+
 *{
     margin: 0;
     padding: 0;
@@ -37,38 +39,194 @@
     color: white;
 }
 
-.Film{
+.film{
     /* background-color: white; */
     /* height: 200px;
     width: 200px; */
     position: absolute;
-    top: 42%;
-    left: 44%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     color: white;
-
+    text-align: center;
+    /* width: 80%; */
 }
 
 .film h4{
-    text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    font-size: 100px;
+    text-align:inherit;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 
 .film h1{
-    text-align: center;
-    position: absolute;
-    top: 60%;
-    left: 40%;
+    text-align: inherit;
+    font-size: 70px;
+    font-weight: 900;
 }
 
 
 .film p{
     text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+
 }
 
 .Watch{
-    background-color: yellow;
+    background-color: #FFBF00;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+
+    
+}
+.home_manu{
+    color: white;
+}
+
+           /* second page */
+.basic{
+    color: #FFBF00;
+    font-size: 17px;
+    
+}
+.us{
+    color: black;
+    font-size: 35px;
+}
+.are{
+    color: black;
+}
+.btn1{
+    background-color: #FFBF00;
+    color: white;
+    /* padding-top: 15px; */
+    /* padding-left: 20px; */
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    padding: 15px;
+
+
+}
+
+.a_container{
+    width: 90%;
+    margin: 0px 40px;
+    padding: 120px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avout_2{
+    width: 45%;
+    line-height: 50PX;
+}
+
+.avout_2 P{
+    /* width: 45%; */
+    line-height: 18PX;
+    margin-bottom: 15PX;
+}
+
+.a_img{
+    width: 45%;
+}
+
+.a_img img{
+    height: auto;
+    width: 100%;
+}
+
+
+
+.our h4{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.our h4::before{
+    content: "-------";
+    color: #FFBF00;
+
+}
+
+.our h4::after{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+    
+}
+
+.our{
+    display: flex;
+    
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.icon_tv{
+    text-align: center;
+    padding: 166px;
+    margin: -23px;
+    padding-left: 0px; 
+
+    
+
+}
+
+
+.icon_trophy{
+    text-align: center;
+    padding: 166px;
+    margin: -23px;
+    padding-left: 0px; 
+
+
+}
+
+.icon_film{
+    text-align: center;
+    padding: 166px;
+    margin: -23px;
+    padding-left: 0px; 
+
+}
+.icon_camera{
+    text-align: center;
+    padding: 166px;
+    margin: -23px;
+    padding-left: 0px; 
+
+}
+
+
+/* video section */
+
+.video_img{
+    background-image: url("https://megaone.acrothemes.com/film/img/video-img.jpg");
+    background-size: cover;
+    position: relative;
+    height: 550px;
+    background-position: center;
+
+}
+
+.video_btn{
+    
+    /* margin-top: 10px; */
+    text-decoration: none;
+    /* margin-left: 10px; */
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
 }
