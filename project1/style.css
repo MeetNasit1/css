@@ -146,19 +146,24 @@
 
 
 
-.our h4{
+.h4{
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     text-transform: uppercase;
     padding-left: 10px;
 }
-.our h4::before{
+
+.h4{
+    text-align: center;
+    font-size: 50px;
+}
+.h4::before{
     content: "-------";
     color: #FFBF00;
 
 }
 
-.our h4::after{
+.h4::after{
     content: "-------";
     color: #FFBF00;
     text-align: center;
@@ -166,7 +171,7 @@
 }
 
 .our{
-    display: flex;
+    display: flex; 
     
     margin-right: -15px;
     margin-left: -15px;
@@ -174,11 +179,11 @@
 .icon_tv{
     text-align: center;
     padding: 166px;
-    margin: -23px;
-    padding-left: 0px; 
-
-    
-
+    margin: -35px;
+    padding-left: 275px;
+}
+.tv{
+    font-size: 50px;
 }
 
 
@@ -187,8 +192,9 @@
     padding: 166px;
     margin: -23px;
     padding-left: 0px; 
-
-
+}
+.trophy{
+    font-size: 50px;
 }
 
 .icon_film{
@@ -196,14 +202,18 @@
     padding: 166px;
     margin: -23px;
     padding-left: 0px; 
-
+}
+.film_1{
+    font-size: 50px;
 }
 .icon_camera{
     text-align: center;
     padding: 166px;
     margin: -23px;
     padding-left: 0px; 
-
+}
+.camera_1{
+    font-size: 50px;
 }
 
 
@@ -230,3 +240,124 @@
     justify-content: center;
     font-size: 100px;
 }
+
+
+/* out  cast section */
+
+.cast h5{
+    color: #FFBF00;
+
+}
+.cast_1 h4{
+    font-size: 20px;
+    
+}
+
+.cast{
+    display: flex;
+    margin: 72px 85px;
+    padding: 20px;
+}
+.cast_1 ,h4, h5, p{
+    margin-right: 10px;
+    background-color: #6c757d03;
+    /* padding: 18px; */
+}
+
+.cast_2 h4,h5,p{
+    margin-right: 10px;
+    background-color: #6c757d03;
+    /* padding: 18px; */
+
+}
+
+.cast_3 h4,h5,p{
+    margin-right: 10px;
+    background-color: #6c757d03;
+    padding: 18px;
+
+}
+.cast_4 h4,h5,p{
+    margin-right: 10px;
+    background-color: #6c757d03;
+    padding: 14px;
+
+}
+.cast_0 h2{
+    text-align: center;
+    padding-top: 130px;
+    margin: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.cast_0 h2::before{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+.cast_0 h2::after{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+.cast_1:hover{
+    background-color: #FFBF00;
+    
+}
+
+.cast_img_1{
+    height: 225px;
+}
+
+.cast_2:hover{
+    background-color: #FFBF00;
+    
+}
+.cast_img_2{
+    height: 225px;
+    margin-top: 37px;
+}
+
+
+.cast_3:hover{
+    background-color: #FFBF00;
+    
+}
+.cast_img_3{
+    height: 243px;
+    margin-top: 0px;
+}
+
+.cast_4:hover{
+    background-color: #FFBF00;
+}
+.cast_img_4{
+    height: 225px;
+    margin-top: 29px;
+}
+
+
+/* MOVIE GALLERY section */
+
+
+.movie_1{
+    text-align: center;
+    font-size: 50px;
+
+}
+.movie_1::before{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+.movie_1::after{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+
+
