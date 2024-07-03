@@ -369,4 +369,39 @@
 
 
 
+/* LATEST VIDEOS */
+
+.latest_heading{
+    text-align: center;
+    padding: 85px;
+    margin: 26px;
+    font-size: 50px;
+}
+
+.latest_heading::before{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+.latest_heading::after{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+.l_photo{
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
 
