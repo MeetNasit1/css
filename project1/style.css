@@ -415,7 +415,7 @@
 .b1{
     position: absolute;
     height: 300px;
-    width: 300px;
+    width: 430px;
     background-color: white;
     color: black;
     top: 25%;
@@ -428,8 +428,41 @@
 .b1 img{
     border-radius: 50px;
     text-align: center;
-    margin-left: 74px;
+    margin-left: 140px;
+    margin-top: 80px;
 
+}
+.b1 p{
+    text-align: center;
+}
+.b1 span{
+    /* background-color: white; */
+    color:#FFBF00;
+    padding-left: 145px;
+    margin-bottom: 145px;
+}
+.b1 h4{
+    color: white;
+    text-transform: uppercase;
+    padding-left: 125px;
+    margin-top: 10px;
+}
+
+.b2{
+    /* background-color: #FFBF00; */
+    padding-left: 275px;
+    display: flex;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.b3{
+    padding-left: 330px;
+}
+.b4{
+    margin: 30px;
+    margin-top: 200px;
+
+    
 }
 
 
