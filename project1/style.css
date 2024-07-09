@@ -466,6 +466,95 @@
 }
 
 
+.blog1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 150px;
+    overflow: hidden;
+}
+
+.blog1 h4{
+    font-size: 30px;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.blog1 i{
+    margin-right: 10px;
+}
+
+.blog1 p{
+    margin: 0px;
+    padding: 0px;
+    padding: 15px;
+}
+
+.icon20, .icon21, .icon22{
+    display: flex;
+    margin: 5px;
+    gap: 20px ;
+    padding: 15px;
+}
+
+
+li{
+    list-style-type: none;
+}
+.latest{
+    text-align: center;
+    font-size: 50px;
+    padding: 120px;
+}
+
+
+.latest::before{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+.latest::after{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+
+/* LET'S GET IN TOUCH */
+
+.lets{
+    font-size: 50px;
+    text-align: center;
+    padding: 120px;
+}
+
+.lets::before{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+.lets::after{
+    content: "-------";
+    color: #FFBF00;
+    text-align: center;
+}
+
+.touch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form1 butt{
+    text-align: center;
+}
+.butt{
+    text-align: center;
+}
+
+
 
 
 
