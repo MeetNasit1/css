@@ -552,6 +552,24 @@ li{
 }
 .butt{
     text-align: center;
+    color: white;
+    background-color: #FFBF00;
+    border: none;
+
+}
+.butt:hover{
+    background-color: black;
+    
+}
+.but{
+    text-align: center;
+}
+.add{
+    display: flex;
+    gap: 30px;
+}
+.form1{
+    outline: none;
 }
 
 
