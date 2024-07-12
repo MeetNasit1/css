@@ -14,6 +14,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 
 }
@@ -80,15 +81,20 @@
     padding: 10px 20px;
     font-size: 15px;
     border: none;
-    text-align: center;
-
-    
+    text-align: center;  
 }
+.Watch:hover{
+    background-color: black;
+
+}
+
+
+
 .home_manu{
     color: white;
 }
 
-           /* second page */
+           /* second page about us story */
 .basic{
     color: #FFBF00;
     font-size: 17px;
@@ -111,8 +117,9 @@
     font-weight: 500;
     border: none;
     padding: 15px;
-
-
+}
+.btn1 :hover{
+    background-color: black;
 }
 
 .a_container{
@@ -225,21 +232,36 @@
     position: relative;
     height: 550px;
     background-position: center;
+    background-attachment: fixed;
 
 }
+.btt2{
+    padding-left: 100px;
+    position: relative;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 200px;
+    /* text-decoration: none; */
+    
+}
+.btt2 a{
+    text-decoration: none;
+    color: white;
+}
 
-.video_btn{
+/* .video_btn{
     
     /* margin-top: 10px; */
-    text-decoration: none;
+    /* text-decoration: none; */
     /* margin-left: 10px; */
-    height: 50px;
+    /* height: 50px;
     width: 100px;
     text-align: center;
     display: flex;
     justify-content: center;
-    font-size: 100px;
-}
+    font-size: 100px; */
+ */
 
 
 /* out  cast section */
@@ -375,7 +397,7 @@
     text-align: center;
     padding: 85px;
     /* margin: 26px; */
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .latest_heading::before{
@@ -394,6 +416,7 @@
     text-align: center;
     display: flex;
     padding: 20px;
+    padding-left: 100px;
 
 }
 
@@ -409,6 +432,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    background-attachment: fixed;
     
 }
 
@@ -466,6 +490,9 @@
 }
 
 
+/* letest blog */
+
+
 .blog1{
     display: flex;
     width: 100%;
@@ -502,20 +529,20 @@
 li{
     list-style-type: none;
 }
-.latest{
+.latest2{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     padding: 120px;
 }
 
 
-.latest::before{
+.latest2::before{
     content: "-------";
     color: #FFBF00;
     text-align: center;
 }
 
-.latest::after{
+.latest2::after{
     content: "-------";
     color: #FFBF00;
     text-align: center;
@@ -570,6 +597,31 @@ li{
 }
 .form1{
     outline: none;
+}
+
+
+/* map section */
+
+.map1{
+    padding-top: 150px;
+    padding-left: 220px;
+    margin-bottom: 150px;
+}
+
+.add10{
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+    padding-left: 200px;
+    background-color: aliceblue;
+}
+.add10 p{
+    text-align: right;
+}
+.made{
+    padding-left: 300px;
+    position: relative;
+    bottom: 20px;
 }
 
 
