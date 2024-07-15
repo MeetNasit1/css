@@ -19,11 +19,11 @@
 
 
 } */
-
-.maindiv{
+/* 
+ .maindiv{
     border: 5px solid blue ;
     display: flex;
-    /* border:2px solid purple; */
+    /* border:2px solid purple; 
 }
 
 
@@ -31,4 +31,10 @@
     border: 5px solid blue ;
     flex-grow: 1;
 
+} 
+
+/* css unit */
+
+.head{
+    font: size 1in; ;
 }
