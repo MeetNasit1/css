@@ -1,0 +1,34 @@
+/* .maindiv{
+    max-width: 1200px;
+    display: flex;
+    border: 3px solid red;
+
+} */
+
+/* .maindiv{
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+} */
+
+
+/* .maindiv div:nth-child(1){
+    flex-shrink: 10;
+    flex-grow: 3;
+
+
+} */
+
+.maindiv{
+    border: 5px solid blue ;
+    display: flex;
+    /* border:2px solid purple; */
+}
+
+
+.maindiv div{
+    border: 5px solid blue ;
+    flex-grow: 1;
+
+}

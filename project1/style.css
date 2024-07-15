@@ -264,7 +264,7 @@
  */
 
 
-/* out  cast section */
+/*-------------------------------------------------------------- out  cast section -------------------------------------------------------*/
 
 .cast h5{
     color: #FFBF00;
@@ -391,7 +391,7 @@
 
 
 
-/* LATEST VIDEOS */
+/*------------------------------------------------------ LATEST VIDEOS----------------------------------------------------------------------- */
 
 .latest_heading{
     text-align: center;
@@ -523,6 +523,15 @@
     margin: 5px;
     gap: 20px ;
     padding: 15px;
+}
+.blog2 :hover{
+    color:#FFBF00;
+}
+.blog3 :hover{
+    color:#FFBF00;
+}
+.blog4 :hover{
+    color:#FFBF00;
 }
 
 
