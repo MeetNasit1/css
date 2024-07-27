@@ -189,10 +189,7 @@ a{
     justify-content: center;
     /* margin: 200px; */
 }
-.service_offer{
-    /* max-width: 1000px; */
-    /* text-align: center; */
-}
+
 
 /* service section  end*/
 
@@ -203,9 +200,7 @@ a{
 .wonder{
     padding-top: 100px;
     display: flex;
-    /* border: 1px solid red; */
-    /* max-width: 900px; */
-    /* text-align: center;    */
+   
 }
 .wonder img{
     max-width: 100%;
@@ -295,7 +290,8 @@ a{
     padding-top: 100px;
 }
 .cards_1{
-    padding-left: 100px;
+    margin-left: 20px;
+    /* padding-left: 100px; */
     box-shadow: 0px 0px 8px 0px;
     /* text-align: start; */
 
@@ -305,7 +301,7 @@ a{
     text-align: start;
     line-height: 29px;
     color: #343f52;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 .cards_1 p{
     font-size: 17px;
@@ -319,8 +315,9 @@ a{
 
 
 .cards_2{
+    margin-left: 60px;
     padding-top: 25px;
-    padding-left: 200px;
+    /* padding-left: 200px; */
     box-shadow: 0px 0px 8px 0px;
 }
 .cards_2 h3{
@@ -335,8 +332,9 @@ a{
 }
 
 .cards_3{
+    margin-left: 20px;
     padding-top: 25px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     box-shadow: 0px 0px 8px 0px;
 
 }
@@ -352,6 +350,196 @@ a{
 }
 
 /* <!-- OUR STRATEGY end --> */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* <!-- WHY CHOOSE US start --> */
+
+
+.choice{
+    max-width: 800px;
+    /* max-width: 100%; */
+}
+.why{
+    padding-top: 100px;
+    display: flex;
+    max-width: 100%;
+}
+
+.solutions h4{
+    font-size: 16px;
+    line-height: 22px;
+    color: #aab0bc;
+}
+
+.solutions h3{
+    font-size: 38px;
+    line-height: 48px;
+    color: #343f52
+    ;
+}
+
+.why img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* <!-- WHY CHOOSE US END  -->  */
+
+/* ----------------------------------------------------------------------------------------------- */
+/* <!-- OUR TEAM START --> */
+
+.our_text{
+    padding-top: 100px;
+    text-align: center;
+}
+.our_text h4{
+    font-size: 16px;
+    line-height: 22px;
+    color: #aab0bc;
+}
+
+.our_text h3{
+    font-size: 38px;
+    line-height: 48px;
+    color: #343f52;
+}
+
+
+.our_intro{
+    display: flex;
+    gap: 30px;
+}
+
+
+.our_intro img{
+    border-radius: 50%;
+}
+
+.our_intro h4{
+    font-size: 20px;
+    color: #343f52;
+    line-height: 29px;
+}
+
+.our_intro h5{
+    font-size: 14px;
+    color: #aab0bc;
+    line-height: 24px;
+
+}
+
+.our_intro p{
+    font-size: 17px;
+    color: #60697b;
+    line-height: 29px;
+}
+.intro_1{
+    padding-top: 40px;
+    box-shadow: 0px 0px 8px 0px;
+    text-align: left;
+    padding-left: 50px;
+
+}
+
+.intro_2{
+    padding-top: 40px;
+    padding-left: 50px;
+    text-align: left;
+    box-shadow: 0px 0px 8px 0px;
+}
+
+.intro_3{
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 50px;
+    box-shadow: 0px 0px 8px 0px;
+}
+
+.intro_4{
+    padding-top: 40px;
+    text-align: left;
+    padding-left: 50px;
+    box-shadow: 0px 0px 8px 0px;
+}
+
+
+.our_intro span i{
+    gap: 20px;
+    
+}
+
+
+/* <!-- OUR TEAM end --> */
+
+/* --------------------------------------------------------------------------------- */
+
+/* <!-- OUR SOLUTIONS  start --> */
+
+.solution{
+    padding: 100px;
+    display: flex;
+}
+.our_div{
+    display: flex;
+}
+
+.our_div1 h3 span i{
+    border-radius: 50;
+    
+}
+
+.solution_text h4{
+    font-size: 16px;
+    line-height: 22px;
+    color: #aab0bc    ;
+}
+
+.solution_text h3{
+    font-size: 25px;
+    line-height: 45px;
+    color: #343f52    ;
+}
+.solution_text p{
+    font-size: 17px;
+    line-height: 28px;
+    color: #60697b;
+}
+
+.our_div1 h3{
+    font-size: 17px;
+    line-height: 28px;
+    color: #60697b;
+}
+
+.our_div2 h3{
+    font-size: 17px;
+    line-height: 28px;
+    color: #60697b;
+}
+
+.solution_img img{
+    max-width: 100%
+    
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

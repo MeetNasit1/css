@@ -37,9 +37,15 @@
     .wonder{
         flex-wrap: wrap;
     }
-    /* .strategy{
-        flex-wrap:wrap ;
-    } */
+    .why{
+        flex-wrap: wrap;
+    }
+    .our_intro{
+        flex-wrap: wrap;
+    }
+    .solution{
+        flex-wrap: wrap;
+    }
     
 }
 @media (max-width:576px){
