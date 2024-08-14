@@ -496,7 +496,7 @@ a{
 }
 
 .solution_text h3{
-    font-size: 25px;
+    font-size: 38px;
     line-height: 45px;
     color: #343f52    ;
 }
@@ -519,19 +519,14 @@ a{
 }
 
 .solution_img img{
-    max-width: 100%
+    max-width: 100%;
+    height: auto;
     
 }
- 
 
-
-
-
-
-
-
-
-
+.solution_text{
+    max-width: 500px;
+}
 
 
 

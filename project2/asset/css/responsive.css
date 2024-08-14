@@ -19,6 +19,7 @@
     } */
     .strategy{
         flex-wrap:wrap ;
+
     }
 
 
@@ -45,6 +46,7 @@
     }
     .solution{
         flex-wrap: wrap;
+        padding: 10px;
     }
     
 }
